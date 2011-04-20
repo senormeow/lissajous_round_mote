@@ -1,0 +1,30 @@
+ERC control (Mon 18 Apr 2011 10:40:53 PM MDT)
+
+***** Sheet / (Root) 
+ERC: Warning Pin BiDi Unconnected (X= 6.300 inches, Y= 3.400 inches
+ERC: Warning Pin BiDi Unconnected (X= 6.300 inches, Y= 3.500 inches
+ERC: Warning Pin BiDi Unconnected (X= 8.150 inches, Y= 4.000 inches
+ERC: Warning Pin input Unconnected (X= 8.150 inches, Y= 4.100 inches
+ERC: Warning Pin BiDi Unconnected (X= 8.150 inches, Y= 4.200 inches
+ERC: Warning Pin BiDi Unconnected (X= 8.150 inches, Y= 4.300 inches
+ERC: Warning Pin BiDi Unconnected (X= 8.150 inches, Y= 4.400 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 3.700 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 3.800 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 3.900 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 4.000 inches
+ERC: Warning Pin input Unconnected (X= 9.750 inches, Y= 4.100 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 4.200 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 4.300 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 4.400 inches
+ERC: Warning Pin output Unconnected (X= 9.750 inches, Y= 4.500 inches
+ERC: Warning Pin BiDi Unconnected (X= 9.750 inches, Y= 4.600 inches
+ERC: Warning Pin input Unconnected (X= 8.300 inches, Y= 1.900 inches
+ERC: Warning Pin input Unconnected (X= 4.450 inches, Y= 1.900 inches
+ERC: Warning Pin power_in not driven (Net 31) (X= 1.050 inches, Y= 5.800 inches
+ERC: Warning Pin BiDi Unconnected (X= 6.300 inches, Y= 3.300 inches
+ERC: Warning Pin passive Unconnected (X= 7.600 inches, Y= 4.750 inches
+ERC: Warning Pin BiDi Unconnected (X= 6.300 inches, Y= 3.200 inches
+ERC: Warning Pin power_in not driven (Net 2) (X= 1.050 inches, Y= 6.000 inches
+ERC: Warning Pin power_in not driven (Net 1) (X= 0.850 inches, Y= 5.750 inches
+
+ >> Errors ERC: 25

@@ -1,0 +1,997 @@
+EESchema Schematic File Version 2  date Tue 19 Apr 2011 12:01:43 AM MDT
+LIBS:./SparkFun,power,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./round_mote.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "1 mar 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Kmarq B 6300 3400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 6300 3500 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 8150 4000 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 8150 4100 "Warning Pin input Unconnected" F=1
+Kmarq B 8150 4200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 8150 4300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 8150 4400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 3700 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 3800 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 3900 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 4000 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 4100 "Warning Pin input Unconnected" F=1
+Kmarq B 9750 4200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 4300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 4400 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 9750 4500 "Warning Pin output Unconnected" F=1
+Kmarq B 9750 4600 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 8300 1900 "Warning Pin input Unconnected" F=1
+Kmarq B 4450 1900 "Warning Pin input Unconnected" F=1
+Kmarq B 6300 3300 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 7600 4750 "Warning Pin passive Unconnected" F=1
+Kmarq B 6300 3200 "Warning Pin BiDi Unconnected" F=1
+Kmarq B 1050 5800 "Warning Pin power_in not driven (Net 3)" F=1
+Kmarq B 1050 6000 "Warning Pin power_in not driven (Net 2)" F=1
+Kmarq B 850  5750 "Warning Pin power_in not driven (Net 1)" F=1
+$Comp
+L +3.3V #PWR01
+U 1 1 4DAD132F
+P 1050 6000
+F 0 "#PWR01" H 1050 5960 30  0001 C CNN
+F 1 "+3.3V" H 1050 6110 30  0000 C CNN
+	1    1050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 4DAD1328
+P 1050 5800
+F 0 "#PWR02" H 1050 5890 20  0001 C CNN
+F 1 "+5V" H 1050 5890 30  0000 C CNN
+	1    1050 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4DAD131B
+P 850 5750
+F 0 "#PWR03" H 850 5750 30  0001 C CNN
+F 1 "GND" H 850 5680 30  0001 C CNN
+	1    850  5750
+	1    0    0    -1  
+$EndComp
+Text Label 1100 5700 0    60   ~ 0
+GND
+Text Label 1150 6000 0    60   ~ 0
+3.3V
+Text Label 1100 5800 0    60   ~ 0
+VCC
+Wire Wire Line
+	1050 6000 1550 6000
+Wire Wire Line
+	850  5750 850  5700
+Wire Wire Line
+	850  5700 1550 5700
+Wire Wire Line
+	1250 5200 1550 5200
+Wire Wire Line
+	1250 4900 1550 4900
+Wire Wire Line
+	1250 4600 1550 4600
+Wire Wire Line
+	1550 4300 1250 4300
+Wire Wire Line
+	1250 4000 1550 4000
+Wire Wire Line
+	1250 3700 1550 3700
+Wire Wire Line
+	1250 3400 1550 3400
+Wire Wire Line
+	1550 3100 1250 3100
+Wire Wire Line
+	1250 2800 1550 2800
+Connection ~ 4200 2800
+Wire Wire Line
+	4200 2700 4200 2800
+Wire Wire Line
+	1550 2500 1200 2500
+Wire Wire Line
+	6850 5000 6300 5000
+Wire Wire Line
+	7450 4600 7450 4500
+Wire Wire Line
+	6950 4700 6300 4700
+Wire Wire Line
+	7450 4600 6300 4600
+Wire Wire Line
+	6300 4100 6950 4100
+Wire Wire Line
+	6300 3900 6950 3900
+Wire Wire Line
+	3500 6200 3200 6200
+Wire Wire Line
+	3450 2800 4400 2800
+Wire Wire Line
+	3750 2250 3750 2350
+Wire Wire Line
+	3850 2900 3850 2800
+Wire Wire Line
+	3750 3300 3850 3300
+Wire Wire Line
+	8150 3700 8050 3700
+Wire Wire Line
+	8050 3700 8050 3400
+Wire Wire Line
+	9150 2450 9150 2650
+Connection ~ 8650 1500
+Wire Wire Line
+	8300 1500 9150 1500
+Wire Wire Line
+	8650 1600 8650 1500
+Connection ~ 4300 3000
+Wire Wire Line
+	4300 3100 4400 3100
+Connection ~ 7350 1500
+Wire Wire Line
+	4450 1500 7600 1500
+Wire Wire Line
+	5350 2450 5350 2550
+Connection ~ 4800 1500
+Wire Wire Line
+	4800 1500 4800 1600
+Connection ~ 3100 1500
+Wire Wire Line
+	3100 1650 3100 1500
+Wire Wire Line
+	7500 2100 7500 1700
+Wire Wire Line
+	7500 1700 7600 1700
+Wire Wire Line
+	3750 1700 3600 1700
+Wire Wire Line
+	3600 1700 3600 2100
+Wire Wire Line
+	6300 3800 6950 3800
+Wire Wire Line
+	3500 6100 3200 6100
+Connection ~ 3350 5700
+Wire Wire Line
+	3200 5800 3350 5800
+Wire Wire Line
+	3350 5800 3350 5500
+Wire Wire Line
+	7600 5700 7600 5550
+Wire Wire Line
+	4250 5300 4250 4800
+Wire Wire Line
+	6950 3200 6300 3200
+Wire Wire Line
+	6950 3000 6300 3000
+Wire Wire Line
+	6950 2800 6300 2800
+Wire Wire Line
+	3650 3900 3400 3900
+Wire Wire Line
+	3950 3800 4400 3800
+Connection ~ 4250 5000
+Wire Wire Line
+	4400 4900 4250 4900
+Wire Wire Line
+	6750 5500 6750 5100
+Wire Wire Line
+	6750 5900 6750 6000
+Wire Wire Line
+	7600 5250 7600 5150
+Wire Wire Line
+	6300 4300 7350 4300
+Wire Wire Line
+	6300 4400 7450 4400
+Wire Wire Line
+	7450 4500 7950 4500
+Wire Wire Line
+	7600 4750 7600 4500
+Connection ~ 7450 4600
+Wire Wire Line
+	4250 5000 4400 5000
+Wire Wire Line
+	4250 4800 4400 4800
+Connection ~ 4250 4900
+Wire Wire Line
+	3950 4000 4400 4000
+Wire Wire Line
+	8150 4600 8050 4600
+Wire Wire Line
+	7950 3900 7450 3900
+Wire Wire Line
+	7450 3900 7450 4400
+Wire Wire Line
+	6950 2900 6300 2900
+Wire Wire Line
+	6950 3100 6300 3100
+Wire Wire Line
+	6950 3300 6300 3300
+Wire Wire Line
+	3400 3900 3400 4250
+Wire Wire Line
+	6750 6300 6750 6450
+Wire Wire Line
+	8050 4600 8050 4800
+Wire Wire Line
+	3200 5700 3350 5700
+Wire Wire Line
+	3350 5500 3500 5500
+Wire Wire Line
+	3500 5500 3500 5600
+Wire Wire Line
+	3500 6000 3200 6000
+Wire Wire Line
+	6950 3700 6300 3700
+Wire Wire Line
+	7350 4300 7350 3800
+Wire Wire Line
+	7350 3800 8150 3800
+Wire Wire Line
+	3450 1500 3450 1900
+Wire Wire Line
+	3450 1900 3750 1900
+Wire Wire Line
+	7350 1500 7350 1900
+Wire Wire Line
+	7350 1900 7600 1900
+Wire Wire Line
+	2700 1500 3750 1500
+Connection ~ 3450 1500
+Wire Wire Line
+	3100 1950 3100 2050
+Wire Wire Line
+	3100 2050 3600 2050
+Connection ~ 3600 2050
+Wire Wire Line
+	4800 1900 4800 2050
+Wire Wire Line
+	5350 2000 5350 2150
+Wire Wire Line
+	5350 1250 5350 1600
+Connection ~ 5350 1500
+Wire Wire Line
+	4300 3000 4400 3000
+Wire Wire Line
+	4400 3200 4300 3200
+Connection ~ 4300 3100
+Wire Wire Line
+	8650 1900 8650 2100
+Wire Wire Line
+	9150 2000 9150 2150
+Wire Wire Line
+	9150 1350 9150 1600
+Connection ~ 9150 1500
+Wire Wire Line
+	4400 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 2550
+Connection ~ 4300 3200
+Wire Wire Line
+	3850 3300 3850 3500
+Connection ~ 3850 2800
+Wire Wire Line
+	3750 2750 3750 2900
+Connection ~ 3750 2800
+Wire Wire Line
+	3550 5900 3200 5900
+Wire Wire Line
+	3150 2800 3000 2800
+Wire Wire Line
+	6300 4000 6950 4000
+Wire Wire Line
+	6300 4200 6950 4200
+Wire Wire Line
+	6950 4550 6950 4600
+Connection ~ 6950 4600
+Wire Wire Line
+	6950 4800 6300 4800
+Wire Wire Line
+	6850 4900 6300 4900
+Wire Wire Line
+	6300 5100 6850 5100
+Connection ~ 6750 5100
+Wire Wire Line
+	1200 2500 1200 2550
+Wire Wire Line
+	1250 2700 1550 2700
+Wire Wire Line
+	1250 3000 1550 3000
+Wire Wire Line
+	1550 3300 1250 3300
+Wire Wire Line
+	1250 3600 1550 3600
+Wire Wire Line
+	1250 3900 1550 3900
+Wire Wire Line
+	1250 4200 1550 4200
+Wire Wire Line
+	1250 4500 1550 4500
+Wire Wire Line
+	1250 4800 1550 4800
+Wire Wire Line
+	1250 5100 1550 5100
+Wire Wire Line
+	1250 5400 1550 5400
+Wire Wire Line
+	1250 5500 1550 5500
+Wire Wire Line
+	1050 5800 1550 5800
+Text GLabel 1250 5500 0    60   Input ~ 0
+RAW
+$Comp
+L CONN_2 P12
+U 1 1 4DAD0FE3
+P 1900 5900
+F 0 "P12" V 1850 5900 40  0000 C CNN
+F 1 "3.3V 5V" V 1950 5900 40  0000 C CNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P11
+U 1 1 4DAD0FDF
+P 1900 5600
+F 0 "P11" V 1850 5600 40  0000 C CNN
+F 1 "GND RAW" V 1950 5600 40  0000 C CNN
+	1    1900 5600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 5400 0    60   Input ~ 0
+A5
+Text GLabel 1250 5200 0    60   Input ~ 0
+A4
+Text GLabel 1250 5100 0    60   Input ~ 0
+A3
+Text GLabel 1250 4900 0    60   Input ~ 0
+A2
+Text GLabel 1250 4800 0    60   Input ~ 0
+A1
+Text GLabel 1250 4600 0    60   Input ~ 0
+A0
+$Comp
+L CONN_2 P10
+U 0 1 4DAD0ED2
+P 1900 5300
+F 0 "P10" V 1850 5300 40  0000 C CNN
+F 1 "A5 A4" V 1950 5300 40  0000 C CNN
+	0    1900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P9
+U 1 1 4DAD0ECF
+P 1900 5000
+F 0 "P9" V 1850 5000 40  0000 C CNN
+F 1 "A3 A2" V 1950 5000 40  0000 C CNN
+	1    1900 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 4500 0    60   Input ~ 0
+SCK/D13
+Text GLabel 1250 4300 0    60   Input ~ 0
+MISO/D12
+Text GLabel 1250 4200 0    60   Input ~ 0
+MOSI/D11
+Text GLabel 1250 4000 0    60   Input ~ 0
+D10
+Text GLabel 1250 3900 0    60   Input ~ 0
+D9
+Text GLabel 1250 3700 0    60   Input ~ 0
+D8
+Text GLabel 1250 3600 0    60   Input ~ 0
+D5
+Text GLabel 1250 3400 0    60   Input ~ 0
+D4
+$Comp
+L CONN_2 P8
+U 1 1 4DAD0BF8
+P 1900 4700
+F 0 "P8" V 1850 4700 40  0000 C CNN
+F 1 "A1 A0" V 1950 4700 40  0000 C CNN
+	1    1900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P7
+U 1 1 4DAD0BF0
+P 1900 4400
+F 0 "P7" V 1850 4400 40  0000 C CNN
+F 1 "D13 D12" V 1950 4400 40  0000 C CNN
+	1    1900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P6
+U 0 1 4DAD0BEB
+P 1900 4100
+F 0 "P6" V 1850 4100 40  0000 C CNN
+F 1 "D11 D10" V 1950 4100 40  0000 C CNN
+	0    1900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P5
+U 1 1 4DAD0BE6
+P 1900 3800
+F 0 "P5" V 1850 3800 40  0000 C CNN
+F 1 "D9 D8" V 1950 3800 40  0000 C CNN
+	1    1900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P4
+U 1 1 4DAD0BDF
+P 1900 3500
+F 0 "P4" V 1850 3500 40  0000 C CNN
+F 1 "D5 D4" V 1950 3500 40  0000 C CNN
+	1    1900 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 3300 0    60   Input ~ 0
+D3
+Text GLabel 1250 3100 0    60   Input ~ 0
+D2
+Text GLabel 1250 3000 0    60   Input ~ 0
+TXD
+Text GLabel 1250 2700 0    60   Input ~ 0
+RESET
+Text Label 3950 2850 0    40   ~ 0
+RESET
+Text GLabel 4200 2700 0    60   Input ~ 0
+RESET
+$Comp
+L GND #PWR04
+U 1 1 4D6E720D
+P 1200 2550
+F 0 "#PWR04" H 1200 2550 30  0001 C CNN
+F 1 "GND" H 1200 2480 30  0001 C CNN
+	1    1200 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 2800 0    60   Input ~ 0
+RXD
+$Comp
+L CONN_2 P3
+U 1 1 4D6DA099
+P 1900 3200
+F 0 "P3" V 1850 3200 40  0000 C CNN
+F 1 "D3 D2" V 1950 3200 40  0000 C CNN
+	1    1900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 4D6DA093
+P 1900 2900
+F 0 "P2" V 1850 2900 40  0000 C CNN
+F 1 "D1 D0" V 1950 2900 40  0000 C CNN
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6850 5100 2    60   Input ~ 0
+SCK/D13
+Text Label 6350 5000 0    60   ~ 0
+MISO/D12
+Text Label 6350 4900 0    60   ~ 0
+MOSI/D11
+Text GLabel 6850 5000 2    60   Input ~ 0
+MISO/D12
+Text GLabel 6850 4900 2    60   Input ~ 0
+MOSI/D11
+Text Label 6400 4800 0    60   ~ 0
+D10
+Text Label 6400 4700 0    60   ~ 0
+D9
+Text GLabel 6950 4800 2    60   Input ~ 0
+D10
+Text GLabel 6950 4700 2    60   Input ~ 0
+D9
+Text Label 6400 4600 0    60   ~ 0
+D8
+Text GLabel 6950 4550 2    60   Input ~ 0
+D8
+Text Label 6400 4200 0    60   ~ 0
+D5
+Text Label 6400 4100 0    60   ~ 0
+D4
+Text Label 6400 4000 0    60   ~ 0
+D3
+Text Label 6400 3900 0    60   ~ 0
+D2
+Text GLabel 6950 4200 2    60   Input ~ 0
+D5
+Text GLabel 6950 4100 2    60   Input ~ 0
+D4
+Text GLabel 6950 4000 2    60   Input ~ 0
+D3
+Text GLabel 6950 3900 2    60   Input ~ 0
+D2
+Text Label 6300 3300 0    60   ~ 0
+A5
+Text Label 6300 3200 0    60   ~ 0
+A4
+Text Label 6300 3100 0    60   ~ 0
+A3
+Text Label 6300 3000 0    60   ~ 0
+A2
+Text Label 6300 2900 0    60   ~ 0
+A1
+Text Label 6300 2800 0    60   ~ 0
+A0
+Text Label 3000 2800 0    60   ~ 0
+DTR
+Text GLabel 3000 2800 0    60   Input ~ 0
+DTR
+Text GLabel 3500 6200 2    60   Input ~ 0
+DTR
+$Comp
+L +5V #PWR05
+U 1 1 4D6D9D12
+P 3550 5900
+F 0 "#PWR05" H 3550 5990 20  0001 C CNN
+F 1 "+5V" H 3550 5990 30  0000 C CNN
+	1    3550 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP0603-CAP CA1
+U 1 1 4D6D9CA1
+P 3350 2800
+F 0 "CA1" H 3410 2915 50  0000 L BNN
+F 1 "0.1uF" H 3410 2715 50  0000 L BNN
+F 2 "SparkFun-0603-CAP" H 3350 2950 50  0001 C CNN
+	1    3350 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 4D6D9C51
+P 3750 2250
+F 0 "#PWR06" H 3750 2340 20  0001 C CNN
+F 1 "+5V" H 3750 2340 30  0000 C CNN
+	1    3750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0603-RES RA?
+U 1 1 4D6D9C3D
+P 3750 2550
+AR Path="/4D65C2FD" Ref="RA?"  Part="1" 
+AR Path="/4D6D927E" Ref="RA?"  Part="1" 
+AR Path="/4D6D9C3D" Ref="RA1"  Part="1" 
+F 0 "RA1" H 3600 2609 50  0000 L BNN
+F 1 "10k" H 3600 2420 50  0000 L BNN
+F 2 "SparkFun-0603-RES" H 3750 2700 50  0001 C CNN
+	1    3750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4D6D9C1A
+P 3850 3500
+F 0 "#PWR07" H 3850 3500 30  0001 C CNN
+F 1 "GND" H 3850 3430 30  0001 C CNN
+	1    3850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L TAC_SWITCHSMD SA1
+U 1 1 4D6D9BCE
+P 3750 3100
+F 0 "SA1" H 3650 3350 50  0000 L BNN
+F 1 "TAC" H 3650 2850 50  0000 L BNN
+F 2 "SparkFun-TACTILE_SWITCH_SMD" H 3750 3250 50  0001 C CNN
+	1    3750 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 4D6D941A
+P 8050 3400
+F 0 "#PWR08" H 8050 3360 30  0001 C CNN
+F 1 "+3.3V" H 8050 3510 30  0000 C CNN
+	1    8050 3400
+	1    0    0    -1  
+$EndComp
+Text Label 8850 1500 0    60   ~ 0
+3.3V
+$Comp
+L +3.3V #PWR09
+U 1 1 4D6D93ED
+P 9150 1350
+F 0 "#PWR09" H 9150 1310 30  0001 C CNN
+F 1 "+3.3V" H 9150 1460 30  0000 C CNN
+	1    9150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 4D6D93D3
+P 9150 2650
+F 0 "#PWR010" H 9150 2650 30  0001 C CNN
+F 1 "GND" H 9150 2580 30  0001 C CNN
+	1    9150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED0603 LEDA?
+U 1 1 4D6D93BE
+P 9150 2250
+AR Path="/4D65C43A" Ref="LEDA?"  Part="1" 
+AR Path="/4D6D9295" Ref="LEDA?"  Part="1" 
+AR Path="/4D6D93BE" Ref="LED31"  Part="1" 
+F 0 "LED31" V 9255 2070 50  0000 L BNN
+F 1 "Red" V 9340 2070 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 9150 2400 50  0001 C CNN
+	1    9150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0603-RES RA?
+U 1 1 4D6D93B4
+P 9150 1800
+AR Path="/4D65C2FD" Ref="RA?"  Part="1" 
+AR Path="/4D6D927E" Ref="RA?"  Part="1" 
+AR Path="/4D6D93B4" Ref="R31"  Part="1" 
+F 0 "R31" H 9000 1859 50  0000 L BNN
+F 1 "2.2k" H 9000 1670 50  0000 L BNN
+F 2 "SparkFun-0603-RES" H 9150 1950 50  0001 C CNN
+	1    9150 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 4D6D93A2
+P 8650 2100
+F 0 "#PWR011" H 8650 2100 30  0001 C CNN
+F 1 "GND" H 8650 2030 30  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_POL1206 C?
+U 1 1 4D6D9380
+P 8650 1700
+AR Path="/4D6D91A0" Ref="C?"  Part="1" 
+AR Path="/4D6D9221" Ref="C?"  Part="1" 
+AR Path="/4D6D9380" Ref="C31"  Part="1" 
+F 0 "C31" H 8690 1725 50  0000 L BNN
+F 1 "10uF" H 8690 1535 50  0000 L BNN
+F 2 "SparkFun-EIA3216" H 8650 1850 50  0001 C CNN
+	1    8650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR012
+U 1 1 4D6D9366
+P 4300 2550
+F 0 "#PWR012" H 4300 2640 20  0001 C CNN
+F 1 "+5V" H 4300 2640 30  0000 C CNN
+	1    4300 2550
+	1    0    0    -1  
+$EndComp
+Text Label 5450 1500 0    60   ~ 0
+VCC
+$Comp
+L +5V #PWR013
+U 1 1 4D6D92FD
+P 5350 1250
+F 0 "#PWR013" H 5350 1340 20  0001 C CNN
+F 1 "+5V" H 5350 1340 30  0000 C CNN
+	1    5350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 4D6D92AE
+P 5350 2550
+F 0 "#PWR014" H 5350 2550 30  0001 C CNN
+F 1 "GND" H 5350 2480 30  0001 C CNN
+	1    5350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED0603 LEDA?
+U 1 1 4D6D9295
+P 5350 2250
+AR Path="/4D65C43A" Ref="LEDA?"  Part="1" 
+AR Path="/4D6D9295" Ref="LED51"  Part="1" 
+F 0 "LED51" V 5455 2070 50  0000 L BNN
+F 1 "Red" V 5540 2070 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 5350 2400 50  0001 C CNN
+	1    5350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0603-RES RA?
+U 1 1 4D6D927E
+P 5350 1800
+AR Path="/4D65C2FD" Ref="RA?"  Part="1" 
+AR Path="/4D6D927E" Ref="R51"  Part="1" 
+F 0 "R51" H 5200 1859 50  0000 L BNN
+F 1 "2.2k" H 5200 1670 50  0000 L BNN
+F 2 "SparkFun-0603-RES" H 5350 1950 50  0001 C CNN
+	1    5350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 4D6D9242
+P 4800 2050
+F 0 "#PWR015" H 4800 2050 30  0001 C CNN
+F 1 "GND" H 4800 1980 30  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_POL1206 C?
+U 1 1 4D6D9221
+P 4800 1700
+AR Path="/4D6D91A0" Ref="C?"  Part="1" 
+AR Path="/4D6D9221" Ref="C52"  Part="1" 
+F 0 "C52" H 4840 1725 50  0000 L BNN
+F 1 "10uF" H 4840 1535 50  0000 L BNN
+F 2 "SparkFun-EIA3216" H 4800 1850 50  0001 C CNN
+	1    4800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_POL1206 C51
+U 1 1 4D6D91A0
+P 3100 1750
+F 0 "C51" H 3140 1775 50  0000 L BNN
+F 1 "10uF" H 3140 1585 50  0000 L BNN
+F 2 "SparkFun-EIA3216" H 3100 1900 50  0001 C CNN
+	1    3100 1750
+	1    0    0    -1  
+$EndComp
+Text Label 2750 1500 0    60   ~ 0
+RAW
+Text GLabel 2700 1500 0    60   Input ~ 0
+RAW
+$Comp
+L GND #PWR016
+U 1 1 4D6D9107
+P 7500 2100
+F 0 "#PWR016" H 7500 2100 30  0001 C CNN
+F 1 "GND" H 7500 2030 30  0001 C CNN
+	1    7500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 4D6D90E3
+P 3600 2100
+F 0 "#PWR017" H 3600 2100 30  0001 C CNN
+F 1 "GND" H 3600 2030 30  0001 C CNN
+	1    3600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L V_REG_LDOSMD U4
+U 1 1 4D6D9095
+P 4150 1700
+F 0 "U4" H 3850 2060 50  0000 L BNN
+F 1 "5V Reg" H 3850 1250 50  0000 L BNN
+F 2 "SparkFun-SOT23-5" H 4150 1850 50  0001 C CNN
+	1    4150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L V_REG_LDOSMD U3
+U 1 1 4D6D9087
+P 8000 1700
+F 0 "U3" H 7700 2060 50  0000 L BNN
+F 1 "3.3V Reg" H 7700 1250 50  0000 L BNN
+F 2 "SparkFun-SOT23-5" H 8000 1850 50  0001 C CNN
+	1    8000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 4D6D87FB
+P 1900 2600
+F 0 "P1" V 1850 2600 40  0000 C CNN
+F 1 "RST-GND" V 1950 2600 40  0000 C CNN
+	1    1900 2600
+	1    0    0    -1  
+$EndComp
+Text Label 6400 3700 0    60   ~ 0
+RXD
+Text Label 6400 3800 0    60   ~ 0
+TXD
+Text GLabel 6950 3800 2    60   Input ~ 0
+TXD
+Text GLabel 6950 3700 2    60   Input ~ 0
+RXD
+Text GLabel 3500 6100 2    60   Input ~ 0
+TXD
+Text GLabel 3500 6000 2    60   Input ~ 0
+RXD
+$Comp
+L GND #PWR018
+U 1 1 4D6D6CFC
+P 3500 5600
+F 0 "#PWR018" H 3500 5600 30  0001 C CNN
+F 1 "GND" H 3500 5530 30  0001 C CNN
+	1    3500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_SERIAL_PROGRAMPTH JP1
+U 1 1 4D6D6CD0
+P 3000 6000
+F 0 "JP1" H 2800 6430 50  0000 L BNN
+F 1 "FTDI" H 2800 5600 50  0000 L BNN
+F 2 "SparkFun-1X06" H 3000 6150 50  0001 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 4D6D3C3E
+P 3400 4250
+F 0 "#PWR019" H 3400 4250 30  0001 C CNN
+F 1 "GND" H 3400 4180 30  0001 C CNN
+	1    3400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 4D6D3811
+P 8050 4800
+F 0 "#PWR020" H 8050 4800 30  0001 C CNN
+F 1 "GND" H 8050 4730 30  0001 C CNN
+	1    8050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 4D6D3804
+P 7600 5700
+F 0 "#PWR021" H 7600 5700 30  0001 C CNN
+F 1 "GND" H 7600 5630 30  0001 C CNN
+	1    7600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 4D6D37F9
+P 6750 6450
+F 0 "#PWR022" H 6750 6450 30  0001 C CNN
+F 1 "GND" H 6750 6380 30  0001 C CNN
+	1    6750 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 4D6D37C1
+P 4250 5300
+F 0 "#PWR023" H 4250 5300 30  0001 C CNN
+F 1 "GND" H 4250 5230 30  0001 C CNN
+	1    4250 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 3300 2    60   Input ~ 0
+A5
+Text GLabel 6950 3200 2    60   Input ~ 0
+A4
+Text GLabel 6950 3100 2    60   Input ~ 0
+A3
+Text GLabel 6950 3000 2    60   Input ~ 0
+A2
+Text GLabel 6950 2900 2    60   Input ~ 0
+A1
+Text GLabel 6950 2800 2    60   Input ~ 0
+A0
+$Comp
+L RESONATORSMD YA1
+U 1 1 4D65C57F
+P 3950 3900
+F 0 "YA1" H 4050 3940 50  0000 L BNN
+F 1 "16Mhz" H 4050 3600 50  0000 L BNN
+F 2 "SparkFun-RESONATOR-SMD" H 3950 4050 50  0001 C CNN
+	1    3950 3900
+	0    1    1    0   
+$EndComp
+Text Label 6350 5100 0    50   ~ 0
+SCK/D13
+$Comp
+L LED0603 LED?
+U 1 1 4D65C47F
+P 6750 6100
+AR Path="/4D65C43A" Ref="LED?"  Part="1" 
+AR Path="/4D65C47F" Ref="LEDA13"  Part="1" 
+F 0 "LEDA13" V 6855 5920 50  0000 L BNN
+F 1 "Green" V 6940 5920 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 6750 6250 50  0001 C CNN
+	1    6750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED0603 LEDA8
+U 1 1 4D65C43A
+P 7600 5350
+F 0 "LEDA8" V 7705 5170 50  0000 L BNN
+F 1 "Green" V 7790 5170 50  0000 L BNN
+F 2 "SparkFun-LED-0603" H 7600 5500 50  0001 C CNN
+	1    7600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR0603-RES R?
+U 1 1 4D65C35B
+P 6750 5700
+AR Path="/4D65C2FD" Ref="R?"  Part="1" 
+AR Path="/4D65C35B" Ref="RA2"  Part="1" 
+F 0 "RA2" H 6600 5759 50  0000 L BNN
+F 1 "2.2k" H 6600 5570 50  0000 L BNN
+F 2 "SparkFun-0603-RES" H 6750 5850 50  0001 C CNN
+	1    6750 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L RESISTOR0603-RES RA3
+U 1 1 4D65C2FD
+P 7600 4950
+F 0 "RA3" H 7450 5009 50  0000 L BNN
+F 1 "2.2k" H 7450 4820 50  0000 L BNN
+F 2 "SparkFun-0603-RES" H 7600 5100 50  0001 C CNN
+	1    7600 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODESOD D?
+U 1 1 4D65C196
+P 8050 4500
+AR Path="/4D65C0F2" Ref="D?"  Part="1" 
+AR Path="/4D65C196" Ref="DX2"  Part="1" 
+F 0 "DX2" H 8150 4519 50  0000 L BNN
+F 1 "DIODESOD" H 8150 4409 50  0000 L BNN
+F 2 "SparkFun-SOD-323" H 8050 4650 50  0001 C CNN
+	1    8050 4500
+	-1   0    0    1   
+$EndComp
+Text Label 6400 4400 0    50   ~ 0
+DIN
+$Comp
+L DIODESOD DX1
+U 1 1 4D65C0F2
+P 8050 3900
+F 0 "DX1" H 8150 3919 50  0000 L BNN
+F 1 "DIODESOD" H 8150 3809 50  0000 L BNN
+F 2 "SparkFun-SOD-323" H 8050 4050 50  0001 C CNN
+	1    8050 3900
+	-1   0    0    1   
+$EndComp
+Text Label 6400 4300 0    50   ~ 0
+DOUT
+$Comp
+L XBEE-1B3 U2
+U 1 1 4D65C027
+P 8950 4100
+F 0 "U2" H 8400 4750 60  0000 C CNN
+F 1 "XBEE-1B3" H 8950 4100 60  0000 C CNN
+	1    8950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATMEGA168 U1
+U 1 1 4D65B97E
+P 5300 3800
+F 0 "U1" H 4600 2300 50  0000 L BNN
+F 1 "ATMEGA168" H 4600 4920 50  0000 L BNN
+F 2 "SparkFun-TQFP32-08" H 5300 3950 50  0001 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
