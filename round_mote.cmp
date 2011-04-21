@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20090216-final) date = Mon 18 Apr 2011 10:46:10 PM MDT
+Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Wed 20 Apr 2011 06:04:51 PM MDT
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -87,77 +87,77 @@ EndCmp
 BeginCmp
 TimeStamp = /4D6DA093;
 Reference = P2;
-ValeurCmp = D0-D1;
+ValeurCmp = D1_D0;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D6DA099;
 Reference = P3;
-ValeurCmp = D2_D3;
+ValeurCmp = D3_D2;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BDF;
 Reference = P4;
-ValeurCmp = D4_D5;
+ValeurCmp = D5_D4;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BE6;
 Reference = P5;
-ValeurCmp = D8_D9;
+ValeurCmp = D9_D8;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DAD0BEB;
+TimeStamp = /4DAF72E5;
 Reference = P6;
-ValeurCmp = D10_D11;
+ValeurCmp = D11_D10;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BF0;
 Reference = P7;
-ValeurCmp = D12_D13;
+ValeurCmp = D13_D12;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BF8;
 Reference = P8;
-ValeurCmp = A0_A1;
+ValeurCmp = A1_A0;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0ECF;
 Reference = P9;
-ValeurCmp = A2_A3;
+ValeurCmp = A3_A2;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0ED2;
 Reference = P10;
-ValeurCmp = A4_A5;
+ValeurCmp = A5_A4;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0FDF;
 Reference = P11;
-ValeurCmp = RAW_GND;
+ValeurCmp = GND_RAW;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0FE3;
 Reference = P12;
-ValeurCmp = 5V_3.3V;
+ValeurCmp = 3.3V_5V;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
