@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 21 Apr 2011 10:31:44 PM MDT
+PCBNEW-BOARD Version 1 date Thu 21 Apr 2011 10:33:51 PM MDT
 
 # Created by Pcbnew(2011-03-30 BZR 2932)-stable
 
@@ -59,7 +59,7 @@ PadSize 1500 1500
 PadDrill 1405
 Pad2MaskClearance 100
 GridOrigin 10000 10000
-AuxiliaryAxisOrg 10000 12500
+AuxiliaryAxisOrg 10000 10000
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 

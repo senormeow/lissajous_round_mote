@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 21 Apr 2011 10:21:48 PM MDT
+EESchema Schematic File Version 2  date Thu 21 Apr 2011 11:03:25 PM MDT
 LIBS:SparkFun
 LIBS:power
 LIBS:device
