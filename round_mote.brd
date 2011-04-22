@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 22 Apr 2011 02:21:36 PM MDT
+PCBNEW-BOARD Version 1 date Fri 22 Apr 2011 02:43:37 PM MDT
 
 # Created by Pcbnew(2011-03-30 BZR 2932)-stable
 
@@ -9,7 +9,7 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 82
 NoConn 3
-Di 9924 9833 35076 35076
+Di 9924 9924 35076 35076
 Ndraw 5
 Ntrack 541
 Nzone 0
@@ -60,7 +60,7 @@ PadDrill 1405
 Pad2MaskClearance 10
 GridOrigin 10000 10000
 AuxiliaryAxisOrg 10000 10000
-PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin true) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerber/))
 $EndSETUP
 
 $EQUIPOT
@@ -910,14 +910,14 @@ Po -750 -250
 $EndPAD
 $EndMODULE  HOLE1
 $MODULE SparkFun-1X06
-Po 25000 11200 1800 15 00200000 4D6D6CD0 ~~
+Po 25000 11200 1800 15 4DB1E852 4D6D6CD0 ~~
 Li SparkFun-1X06
 Sc 4D6D6CD0
 AR /4D6D6CD0
 Op 0 0 0
 At VIRTUAL 
 T0 720 -970 500 500 1800 35 N V 21 N "JP1"
-T1 1000 1000 500 500 1800 35 N V 21 N "FTDI"
+T1 2480 740 500 500 1800 35 N V 21 N "FTDI"
 DS 4900 100 5100 100 26 21
 DS 5100 100 5100 -100 26 21
 DS 4900 -100 5100 -100 26 21
@@ -1256,7 +1256,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SparkFun-SOT23-5
 $MODULE SparkFun-SOT23-5
-Po 24340 25340 2700 15 00200000 4D6D9087 ~~
+Po 24340 25340 2700 15 4DB1E86A 4D6D9087 ~~
 Li SparkFun-SOT23-5
 Cd SMALL OUTLINE TRANSISTOR
 Kw SMALL OUTLINE TRANSISTOR
@@ -1265,7 +1265,7 @@ AR /4D6D9087
 Op 0 0 0
 At SMD 
 T0 50 -930 160 160 2700 35 N V 21 N "U3"
-T1 105 -5 160 160 2700 35 N V 21 N "3.3V_Reg"
+T1 20 20 160 160 2700 35 N V 21 N "3.3V_Reg"
 DS -472 590 -275 590 26 21
 DS -275 590 -275 334 26 21
 DS -472 334 -275 334 26 21
