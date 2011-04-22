@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 22 Apr 2011 09:44:46 AM MDT
+EESchema Schematic File Version 2  date Fri 22 Apr 2011 10:57:06 AM MDT
 LIBS:SparkFun
 LIBS:power
 LIBS:device
@@ -321,19 +321,19 @@ Wire Wire Line
 Wire Wire Line
 	9150 1350 9150 1600
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR01
 U 1 1 4DB1A254
 P 4600 5750
-F 0 "#PWR?" H 4600 5710 30  0001 C CNN
+F 0 "#PWR01" H 4600 5710 30  0001 C CNN
 F 1 "+3.3V" H 4600 5860 30  0000 C CNN
 	1    4600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR01
+L +3.3V #PWR02
 U 1 1 4DB1A201
 P 9150 1350
-F 0 "#PWR01" H 9150 1310 30  0001 C CNN
+F 0 "#PWR02" H 9150 1310 30  0001 C CNN
 F 1 "+3.3V" H 9150 1460 30  0000 C CNN
 	1    9150 1350
 	1    0    0    -1  
@@ -357,10 +357,10 @@ NoConn ~ 6300 3400
 NoConn ~ 8300 1900
 NoConn ~ 4450 1900
 $Comp
-L +3.3V #PWR02
+L +3.3V #PWR03
 U 1 1 4DB0FAA5
 P 5200 5750
-F 0 "#PWR02" H 5200 5710 30  0001 C CNN
+F 0 "#PWR03" H 5200 5710 30  0001 C CNN
 F 1 "+3.3V" H 5200 5860 30  0000 C CNN
 	1    5200 5750
 	1    0    0    -1  
