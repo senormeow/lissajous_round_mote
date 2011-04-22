@@ -1,199 +1,373 @@
-# EESchema Netlist Version 1.1 created  Wed 20 Apr 2011 06:04:51 PM MDT
+# EESchema Netlist Version 1.1 created  Thu 21 Apr 2011 10:04:11 PM MDT
 (
- ( /4D6D9380 SparkFun-EIA3216 C31 10uF
-  ( A +3.3V )
-  ( C GND )
+ ( /4DB0F8D5 SparkFun-0603-RES  RX3 2.2k {Lib=RESISTOR0603-RES}
+  (    1 RSSI )
+  (    2 N-000055 )
  )
- ( /4D6D91A0 SparkFun-EIA3216 C51 10uF
-  ( A RAW )
-  ( C GND )
+ ( /4DB0F8D4 SparkFun-LED-0603  LEDX3 Green {Lib=LED0603}
+  (    A N-000055 )
+  (    C GND )
  )
- ( /4D6D9221 SparkFun-EIA3216 C52 10uF
-  ( A +5V )
-  ( C GND )
+ ( /4DB0F8C7 SparkFun-LED-0603  LEDX2 Green {Lib=LED0603}
+  (    A N-000054 )
+  (    C DIN )
  )
- ( /4D6D9CA1 SparkFun-0603-CAP CA1 0.1uF
-  ( 1 DTR )
-  ( 2 RESET )
+ ( /4DB0F8C6 SparkFun-0603-RES  RX2 2.2k {Lib=RESISTOR0603-RES}
+  (    1 +3.3V )
+  (    2 N-000054 )
  )
- ( /4D65C0F2 SparkFun-SOD-323 DX1 DIODESOD
-  ( 1 /DIN )
-  ( 2 N-000041 )
+ ( /4DB0F8AF SparkFun-0603-RES  RX1 2.2k {Lib=RESISTOR0603-RES}
+  (    1 +3.3V )
+  (    2 N-000053 )
  )
- ( /4D65C196 SparkFun-SOD-323 DX2 DIODESOD
-  ( 1 D8 )
-  ( 2 N-000021 )
+ ( /4DB0F8AE SparkFun-LED-0603  LEDX1 Red {Lib=LED0603}
+  (    A N-000053 )
+  (    C DOUT )
  )
- ( /4D6D6CD0 SparkFun-1X06 JP1 FTDI
-  ( 1 DTR )
-  ( 2 TXD )
-  ( 3 RXD )
-  ( 4 +5V )
-  ( 5 GND )
-  ( 6 GND )
+ ( /4DB0F695 $noname  P10 A4_A5 {Lib=CONN_2}
+  (    1 A4 )
+  (    2 A5 )
  )
- ( /4D6D93BE SparkFun-LED-0603 LED31 Red
-  ( A N-000004 )
-  ( C GND )
+ ( /4DAF72E5 $noname  P6 D10_D11 {Lib=CONN_2}
+  (    1 D10 )
+  (    2 MOSI/D11 )
  )
- ( /4D6D9295 SparkFun-LED-0603 LED51 Red
-  ( A N-000002 )
-  ( C GND )
+ ( /4DAD0FE3 $noname  P11 3.3V_5V {Lib=CONN_2}
+  (    1 +5V )
+  (    2 +3.3V )
  )
- ( /4D65C43A SparkFun-LED-0603 LEDA8 Green
-  ( A N-000045 )
-  ( C GND )
+ ( /4DAD0FDF $noname  P12 GND_RAW {Lib=CONN_2}
+  (    1 RAW )
+  (    2 GND )
  )
- ( /4D65C47F SparkFun-LED-0603 LEDA13 Green
-  ( A N-000046 )
-  ( C GND )
+ ( /4DAD0ECF $noname  P9 A2_A3 {Lib=CONN_2}
+  (    1 A2 )
+  (    2 A3 )
  )
- ( /4D6D87FB TYCO_1776275-2 P1 RST-GND
-  ( 1 GND )
-  ( 2 RESET )
+ ( /4DAD0BF8 $noname  P8 A0_A1 {Lib=CONN_2}
+  (    1 A0 )
+  (    2 A1 )
  )
- ( /4D6DA093 TYCO_1776275-2 P2 D1_D0
-  ( 1 RXD )
-  ( 2 TXD )
+ ( /4DAD0BF0 $noname  P7 D12_D13 {Lib=CONN_2}
+  (    1 MISO/D12 )
+  (    2 SCK/D13 )
  )
- ( /4D6DA099 TYCO_1776275-2 P3 D3_D2
-  ( 1 D2 )
-  ( 2 D3 )
+ ( /4DAD0BE6 $noname  P5 D8_D9 {Lib=CONN_2}
+  (    1 D8 )
+  (    2 D9 )
  )
- ( /4DAD0BDF TYCO_1776275-2 P4 D5_D4
-  ( 1 D4 )
-  ( 2 D5 )
+ ( /4DAD0BDF $noname  P4 D5_D4 {Lib=CONN_2}
+  (    1 D4 )
+  (    2 D5 )
  )
- ( /4DAD0BE6 TYCO_1776275-2 P5 D9_D8
-  ( 1 D8 )
-  ( 2 D9 )
+ ( /4D6DA099 $noname  P3 D3_D2 {Lib=CONN_2}
+  (    1 D2 )
+  (    2 D3 )
  )
- ( /4DAF72E5 TYCO_1776275-2 P6 D11_D10
-  ( 1 D10 )
-  ( 2 MOSI/D11 )
+ ( /4D6DA093 $noname  P2 D1_D0 {Lib=CONN_2}
+  (    1 RXD )
+  (    2 TXD )
  )
- ( /4DAD0BF0 TYCO_1776275-2 P7 D13_D12
-  ( 1 MISO/D12 )
-  ( 2 SCK/D13 )
+ ( /4D6D9CA1 SparkFun-0603-CAP  CA1 0.1uF {Lib=CAP0603-CAP}
+  (    1 DTR )
+  (    2 RESET )
  )
- ( /4DAD0BF8 TYCO_1776275-2 P8 A1_A0
-  ( 1 A0 )
-  ( 2 A1 )
+ ( /4D6D9C3D SparkFun-0603-RES  RA1 10k {Lib=RESISTOR0603-RES}
+  (    1 +5V )
+  (    2 RESET )
  )
- ( /4DAD0ECF TYCO_1776275-2 P9 A3_A2
-  ( 1 A2 )
-  ( 2 A3 )
+ ( /4D6D9BCE SparkFun-TACTILE_SWITCH_SMD  SA1 TAC {Lib=TAC_SWITCHSMD}
+  (    1 GND )
+  (    2 GND )
+  (    3 RESET )
+  (    4 RESET )
  )
- ( /4DAD0ED2 TYCO_1776275-2 P10 A5_A4
+ ( /4D6D93BE SparkFun-LED-0603  LED31 Red {Lib=LED0603}
+  (    A N-000001 )
+  (    C GND )
  )
- ( /4DAD0FDF TYCO_1776275-2 P11 GND_RAW
-  ( 1 RAW )
-  ( 2 GND )
+ ( /4D6D93B4 SparkFun-0603-RES  R31 2.2k {Lib=RESISTOR0603-RES}
+  (    1 +3.3V )
+  (    2 N-000001 )
  )
- ( /4DAD0FE3 TYCO_1776275-2 P12 3.3V_5V
-  ( 1 +5V )
-  ( 2 +3.3V )
+ ( /4D6D9380 SparkFun-EIA3216  C31 10uF {Lib=CAP_POL1206}
+  (    A +3.3V )
+  (    C GND )
  )
- ( /4D6D93B4 SparkFun-0603-RES R31 2.2k
-  ( 1 +3.3V )
-  ( 2 N-000004 )
+ ( /4D6D9295 SparkFun-LED-0603  LED51 Red {Lib=LED0603}
+  (    A N-000003 )
+  (    C GND )
  )
- ( /4D6D927E SparkFun-0603-RES R51 2.2k
-  ( 1 +5V )
-  ( 2 N-000002 )
+ ( /4D6D927E SparkFun-0603-RES  R51 4.7k {Lib=RESISTOR0603-RES}
+  (    1 +5V )
+  (    2 N-000003 )
  )
- ( /4D6D9C3D SparkFun-0603-RES RA1 10k
-  ( 1 +5V )
-  ( 2 RESET )
+ ( /4D6D9221 SparkFun-EIA3216  C52 10uF {Lib=CAP_POL1206}
+  (    A +5V )
+  (    C GND )
  )
- ( /4D65C35B SparkFun-0603-RES RA2 2.2k
-  ( 1 SCK/D13 )
-  ( 2 N-000046 )
+ ( /4D6D91A0 SparkFun-EIA3216  C51 10uF {Lib=CAP_POL1206}
+  (    A RAW )
+  (    C GND )
  )
- ( /4D65C2FD SparkFun-0603-RES RA3 2.2k
-  ( 1 D8 )
-  ( 2 N-000045 )
+ ( /4D6D9095 SparkFun-SOT23-5  U4 5V_Reg {Lib=V_REG_LDOSMD}
+  (    1 RAW )
+  (    2 GND )
+  (    3 RAW )
+  (    4 ? )
+  (    5 +5V )
  )
- ( /4D6D9BCE SparkFun-TACTILE_SWITCH_SMD SA1 TAC
-  ( 1 GND )
-  ( 2 GND )
-  ( 3 RESET )
-  ( 4 RESET )
+ ( /4D6D9087 SparkFun-SOT23-5  U3 3.3V_Reg {Lib=V_REG_LDOSMD}
+  (    1 +5V )
+  (    2 GND )
+  (    3 +5V )
+  (    4 ? )
+  (    5 +3.3V )
  )
- ( /4D65B97E SparkFun-TQFP32-08 U1 ATMEGA168
-  ( 1 D3 )
-  ( 2 D4 )
-  ( 3 GND )
-  ( 4 +5V )
-  ( 5 GND )
-  ( 6 +5V )
-  ( 7 N-000048 )
-  ( 8 N-000047 )
-  ( 9 D5 )
-  ( 10 /DOUT )
-  ( 11 /DIN )
-  ( 12 D8 )
-  ( 13 D9 )
-  ( 14 D10 )
-  ( 15 MOSI/D11 )
-  ( 16 MISO/D12 )
-  ( 17 SCK/D13 )
-  ( 18 +5V )
-  ( 19 ? )
-  ( 20 +5V )
-  ( 21 GND )
-  ( 22 ? )
-  ( 23 A0 )
-  ( 24 A1 )
-  ( 25 A2 )
-  ( 26 A3 )
-  ( 27 ? )
-  ( 28 ? )
-  ( 29 RESET )
-  ( 30 RXD )
-  ( 31 TXD )
-  ( 32 D2 )
+ ( /4D6D87FB $noname  P1 RST-GND {Lib=CONN_2}
+  (    1 GND )
+  (    2 RESET )
  )
- ( /4D65C027 SparkFun-XBEE-SMD U2 XBEE-1B3
-  ( 1 +3.3V )
-  ( 2 /DOUT )
-  ( 3 N-000041 )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 N-000021 )
-  ( 10 GND )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 ? )
+ ( /4D6D6CD0 SparkFun-1X06  JP1 FTDI {Lib=ARDUINO_SERIAL_PROGRAMPTH}
+  (    1 DTR )
+  (    2 TXD )
+  (    3 RXD )
+  (    4 +5V )
+  (    5 GND )
+  (    6 GND )
  )
- ( /4D6D9087 SparkFun-SOT23-5 U3 3.3V_Reg
-  ( 1 +5V )
-  ( 2 GND )
-  ( 3 +5V )
-  ( 4 ? )
-  ( 5 +3.3V )
+ ( /4D65C57F SparkFun-RESONATOR-SMD  YA1 16Mhz {Lib=RESONATORSMD}
+  (    1 N-000047 )
+  (    2 GND )
+  (    3 N-000046 )
  )
- ( /4D6D9095 SparkFun-SOT23-5 U4 5V_Reg
-  ( 1 RAW )
-  ( 2 GND )
-  ( 3 RAW )
-  ( 4 ? )
-  ( 5 +5V )
+ ( /4D65C47F SparkFun-LED-0603  LEDA13 Green {Lib=LED0603}
+  (    A N-000045 )
+  (    C GND )
  )
- ( /4D65C57F SparkFun-RESONATOR-SMD YA1 16Mhz
-  ( 1 N-000048 )
-  ( 2 GND )
-  ( 3 N-000047 )
+ ( /4D65C35B SparkFun-0603-RES  RA2 4.7k {Lib=RESISTOR0603-RES}
+  (    1 SCK/D13 )
+  (    2 N-000045 )
+ )
+ ( /4D65C196 SparkFun-SOD-323  DX2 DIODESOD {Lib=DIODESOD}
+  (    1 D8 )
+  (    2 N-000044 )
+ )
+ ( /4D65C0F2 SparkFun-SOD-323  DX1 DIODESOD {Lib=DIODESOD}
+  (    1 DIN )
+  (    2 N-000043 )
+ )
+ ( /4D65C027 $noname  U2 XBEE-1B3 {Lib=XBEE-1B3}
+  (    1 ? )
+  (    2 ? )
+  (    3 N-000043 )
+  (    4 ? )
+  (    5 ? )
+  (    6 RSSI )
+  (    7 ? )
+  (    8 ? )
+  (    9 N-000044 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+ )
+ ( /4D65B97E SparkFun-TQFP32-08  U1 ATMEGA168 {Lib=ATMEGA168}
+  (    1 D3 )
+  (    2 D4 )
+  (    3 GND )
+  (    4 +5V )
+  (    5 GND )
+  (    6 +5V )
+  (    7 N-000047 )
+  (    8 N-000046 )
+  (    9 D5 )
+  (   10 DOUT )
+  (   11 DIN )
+  (   12 D8 )
+  (   13 D9 )
+  (   14 D10 )
+  (   15 MOSI/D11 )
+  (   16 MISO/D12 )
+  (   17 SCK/D13 )
+  (   18 +5V )
+  (   19 ? )
+  (   20 +5V )
+  (   21 GND )
+  (   22 ? )
+  (   23 A0 )
+  (   24 A1 )
+  (   25 A2 )
+  (   26 A3 )
+  (   27 A4 )
+  (   28 A5 )
+  (   29 RESET )
+  (   30 RXD )
+  (   31 TXD )
+  (   32 D2 )
  )
 )
 *
+{ Pin List by Nets
+Net 1 "" ""
+ LED31 A
+ R31 2
+Net 2 "GND" "GND"
+ U1 5
+ U1 3
+ U1 21
+ JP1 6
+ JP1 5
+ P1 1
+ U3 2
+ U4 2
+ LEDA13 C
+ YA1 2
+ P12 2
+ LEDX3 C
+ C51 C
+ C52 C
+ SA1 1
+ SA1 2
+ LED51 C
+ C31 C
+ LED31 C
+Net 3 "" ""
+ R51 2
+ LED51 A
+Net 4 "+3.3V" "+3.3V"
+ P11 2
+ RX2 1
+ RX1 1
+ C31 A
+ U3 5
+ R31 1
+Net 5 "D4" "D4"
+ P4 1
+ U1 2
+Net 6 "D5" "D5"
+ U1 9
+ P4 2
+Net 7 "D8" "D8"
+ P5 1
+ DX2 1
+ U1 12
+Net 8 "D9" "D9"
+ U1 13
+ P5 2
+Net 9 "MISO/D12" "MISO/D12"
+ P7 1
+ U1 16
+Net 10 "SCK/D13" "SCK/D13"
+ RA2 1
+ U1 17
+ P7 2
+Net 11 "A1" "A1"
+ U1 24
+ P8 2
+Net 12 "A2" "A2"
+ U1 25
+ P9 1
+Net 13 "A3" "A3"
+ U1 26
+ P9 2
+Net 14 "TXD" "TXD"
+ U1 31
+ JP1 2
+ P2 2
+Net 15 "D3" "D3"
+ P3 2
+ U1 1
+Net 16 "D2" "D2"
+ U1 32
+ P3 1
+Net 17 "RXD" "RXD"
+ P2 1
+ JP1 3
+ U1 30
+Net 35 "A4" "A4"
+ U1 27
+ P10 1
+Net 36 "MOSI/D11" "MOSI/D11"
+ P6 2
+ U1 15
+Net 38 "+5V" "+5V"
+ JP1 4
+ U1 4
+ P11 1
+ RA1 1
+ U1 6
+ U1 18
+ R51 1
+ U1 20
+ U3 3
+ C52 A
+ U4 5
+ U3 1
+Net 39 "DTR" "DTR"
+ JP1 1
+ CA1 1
+Net 43 "" ""
+ DX1 2
+ U2 3
+Net 44 "" ""
+ U2 9
+ DX2 2
+Net 45 "" ""
+ LEDA13 A
+ RA2 2
+Net 46 "" ""
+ YA1 3
+ U1 8
+Net 47 "" ""
+ YA1 1
+ U1 7
+Net 48 "A0" "A0"
+ U1 23
+ P8 1
+Net 49 "DOUT" "DOUT"
+ U1 10
+ LEDX1 C
+Net 50 "RAW" "RAW"
+ U4 1
+ U4 3
+ C51 A
+ P12 1
+Net 51 "DIN" "DIN"
+ DX1 1
+ U1 11
+ LEDX2 C
+Net 52 "A5" "A5"
+ U1 28
+ P10 2
+Net 53 "" ""
+ LEDX1 A
+ RX1 2
+Net 54 "" ""
+ LEDX2 A
+ RX2 2
+Net 55 "" ""
+ RX3 2
+ LEDX3 A
+Net 56 "RSSI" "RSSI"
+ U2 6
+ RX3 1
+Net 57 "D10" "D10"
+ P6 1
+ U1 14
+Net 58 "RESET" "RESET"
+ SA1 4
+ U1 29
+ CA1 2
+ P1 2
+ SA1 3
+ RA1 2
+}
+#End
