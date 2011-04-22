@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Thu 21 Apr 2011 10:00:25 PM MDT
+Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Fri 22 Apr 2011 10:21:36 AM MDT
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -179,49 +179,49 @@ BeginCmp
 TimeStamp = /4D6D93B4;
 Reference = R31;
 ValeurCmp = 2.2k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D6D927E;
 Reference = R51;
 ValeurCmp = 4.7k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D6D9C3D;
 Reference = RA1;
 ValeurCmp = 10k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4D65C35B;
 Reference = RA2;
 ValeurCmp = 4.7k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F8AF;
 Reference = RX1;
 ValeurCmp = 2.2k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F8C6;
 Reference = RX2;
 ValeurCmp = 2.2k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F8D5;
 Reference = RX3;
 ValeurCmp = 2.2k;
-IdModule  = SparkFun-0603-RES;
+IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp

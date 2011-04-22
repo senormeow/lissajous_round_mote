@@ -1,5 +1,5 @@
-update=Wed 20 Apr 2011 06:08:31 PM MDT
-last_client=pcbnew
+update=Fri 22 Apr 2011 10:15:49 AM MDT
+last_client=cvpcb
 [general]
 version=1
 RootSch=round_mote.sch
@@ -71,11 +71,6 @@ LibName30=contrib
 LibName31=valves
 [common]
 NetDir=
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=1405
@@ -94,13 +89,12 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=round_mote.net
 [pcbnew/libraries]
-LibDir=
 LibName1=./mote_parts
 LibName2=./custom
 LibName3=sockets
-LibName4=./SparkFun
-LibName5=connect
-LibName6=discret
+LibName4=connect
+LibName5=discret
+LibName6=./SparkFun
 LibName7=pin_array
 LibName8=divers
 LibName9=libcms
@@ -108,3 +102,9 @@ LibName10=display
 LibName11=valves
 LibName12=led
 LibName13=dip_sockets
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
