@@ -2,5 +2,9 @@ KICAD file for the Visgence Technologies round mote
 
 I upgraded my default kicad to the latest stable release 2011-03-30 BZR2932
 
-
 Remember youhave to open the project from the kicad gui, running kicad myproject.pro will not work!
+
+Equation for placing screw terminals
+
+    X =  2.250 + 1.1 * COS(angle + 90)
+    Y =  2.250 - 1.1 * SIN(angle + 90)
