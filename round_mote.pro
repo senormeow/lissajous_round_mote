@@ -1,4 +1,4 @@
-update=Fri 22 Apr 2011 02:03:31 PM MDT
+update=Sun 24 Apr 2011 09:48:29 PM MDT
 last_client=pcbnew
 [general]
 version=1
@@ -95,16 +95,17 @@ MSegLar=150
 LastNetListRead=round_mote.net
 [pcbnew/libraries]
 LibDir=
-LibName1=./mote_parts
-LibName2=./custom
-LibName3=sockets
-LibName4=connect
-LibName5=discret
-LibName6=./SparkFun
-LibName7=pin_array
-LibName8=divers
-LibName9=libcms
-LibName10=display
-LibName11=valves
-LibName12=led
-LibName13=dip_sockets
+LibName1=visgence
+LibName2=./mote_parts
+LibName3=./custom
+LibName4=sockets
+LibName5=connect
+LibName6=discret
+LibName7=./SparkFun
+LibName8=pin_array
+LibName9=divers
+LibName10=libcms
+LibName11=display
+LibName12=valves
+LibName13=led
+LibName14=dip_sockets
