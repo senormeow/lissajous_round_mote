@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 22 Apr 2011 10:21:36 AM MDT
+# EESchema Netlist Version 1.1 created  Sat 30 Apr 2011 03:52:27 PM MDT
 (
  ( /4D6D9380 SparkFun-EIA3216 C31 10uF
   ( A +3.3V )
@@ -132,7 +132,7 @@
   ( 1 RSSI )
   ( 2 N-000050 )
  )
- ( /4D6D9BCE SparkFun-TACTILE_SWITCH_SMD SA1 TAC
+ ( /4D6D9BCE TACTILE_SWITCH_SMD SA1 TAC
   ( 1 GND )
   ( 2 GND )
   ( 3 RESET )
@@ -208,7 +208,7 @@
   ( 4 ? )
   ( 5 +5V )
  )
- ( /4D65C57F SparkFun-RESONATOR-SMD YA1 16Mhz
+ ( /4D65C57F RESONATOR-SMD YA1 16Mhz
   ( 1 N-000041 )
   ( 2 GND )
   ( 3 N-000040 )

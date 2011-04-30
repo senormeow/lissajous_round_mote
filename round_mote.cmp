@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Fri 22 Apr 2011 10:21:36 AM MDT
+Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Sat 30 Apr 2011 03:52:27 PM MDT
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /4D6D9BCE;
 Reference = SA1;
 ValeurCmp = TAC;
-IdModule  = SparkFun-TACTILE_SWITCH_SMD;
+IdModule  = TACTILE_SWITCH_SMD;
 EndCmp
 
 BeginCmp
@@ -263,7 +263,7 @@ BeginCmp
 TimeStamp = /4D65C57F;
 Reference = YA1;
 ValeurCmp = 16Mhz;
-IdModule  = SparkFun-RESONATOR-SMD;
+IdModule  = RESONATOR-SMD;
 EndCmp
 
 EndListe
