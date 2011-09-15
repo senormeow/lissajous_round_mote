@@ -9,8 +9,14 @@ for wireless sensing applications. Firmware is available at
 And more information is available on the project website at
     http://visgence.com/lissajous.html
 
-KiCad Website: http://www.lis.inpg.fr/realise_au_lis/kicad/
+The Lissajous mote was demonstrated at the Open Hardware Summit 2011 in NYC.
 
+Resources:
+    KiCad Website: http://www.lis.inpg.fr/realise_au_lis/kicad/
+
+Inspirations:
+    http://www.arduino.cc
+    http://www.arduino.cc/en/Main/ArduinoBoardLilyPad
 
 Change Notes:
 
