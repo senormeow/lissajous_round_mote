@@ -1,5 +1,20 @@
 KICAD file for the Visgence Technologies Lissajous round mote
 
+About
+
+The Lissajous "Round Mote" is an ATMega 328 based microctonroller board intended
+for wireless sensing applications. Firmware is available at 
+    https://github.com/senormeow/lissajous_software
+
+And more information is available on the project website at
+    http://visgence.com/lissajous.html
+
+KiCad Website: http://www.lis.inpg.fr/realise_au_lis/kicad/
+
+
+Change Notes:
+
+---- Evan ----
 I upgraded my default kicad to the latest stable release 2011-03-30 BZR2932
 
 Remember youhave to open the project from the kicad gui, running kicad myproject.pro will not work!
