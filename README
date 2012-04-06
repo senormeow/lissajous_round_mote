@@ -20,8 +20,7 @@ Inspirations:
 
 Change Notes:
 
----- Evan ----
-I upgraded my default kicad to the latest stable release 2011-03-30 BZR2932
+Made with KiCad Release 2012-01-19 BZR3256
 
 Remember youhave to open the project from the kicad gui, running kicad myproject.pro will not work!
 
