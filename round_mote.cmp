@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-03-30 BZR 2932)-stable date = Sat 30 Apr 2011 03:52:27 PM MDT
+Cmp-Mod V01 Genere par PcbNew le 4/6/2012 1:20:48 AM
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /4D65C196;
 Reference = DX2;
 ValeurCmp = DIODESOD;
-IdModule  = SparkFun-SOD-323;
+IdModule  = SOD-323;
 EndCmp
 
 BeginCmp
