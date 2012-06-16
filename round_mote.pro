@@ -1,9 +1,5 @@
-update=4/25/2012 11:13:46 AM
-last_client=eeschema
-[general]
-version=1
-RootSch=round_mote.sch
-BoardNm=round_mote.brd
+update=6/16/2012 3:52:48 PM
+last_client=kicad
 [common]
 NetDir=
 [cvpcb]
@@ -107,3 +103,5 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[general]
+version=1
