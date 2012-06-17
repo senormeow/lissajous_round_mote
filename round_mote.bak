@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/16/2012 3:45:34 PM
+EESchema Schematic File Version 2  date 6/16/2012 3:52:51 PM
 LIBS:SparkFun
 LIBS:power
 LIBS:device
@@ -53,7 +53,7 @@ F 0 "SJ?" H 7900 2715 50  0000 L BNN
 F 1 "SOLDERJUMPER_2WAYT" H 7900 2625 50  0000 L BNN
 F 2 "SparkFun-SJ_2" H 7800 2850 50  0001 C CNN
 	1    7800 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4600 6200 4600 5750

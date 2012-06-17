@@ -1,5 +1,5 @@
-update=6/16/2012 3:52:48 PM
-last_client=kicad
+update=6/16/2012 4:04:48 PM
+last_client=eeschema
 [common]
 NetDir=
 [cvpcb]
@@ -40,6 +40,8 @@ LibName11=display
 LibName12=valves
 LibName13=led
 LibName14=dip_sockets
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -103,5 +105,4 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[general]
-version=1
+LibName32=max1487
