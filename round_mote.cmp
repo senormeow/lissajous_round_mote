@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 4/6/2012 1:20:48 AM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/16/2012 8:36:03 PM
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -120,59 +120,87 @@ IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DAD0BE6;
+TimeStamp = /4FDD4019;
 Reference = P5;
+ValeurCmp = D7_D6;
+IdModule  = TYCO_1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DAD0BE6;
+Reference = P6;
 ValeurCmp = D8_D9;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAF72E5;
-Reference = P6;
+Reference = P7;
 ValeurCmp = D10_D11;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BF0;
-Reference = P7;
+Reference = P8;
 ValeurCmp = D12_D13;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0BF8;
-Reference = P8;
+Reference = P9;
 ValeurCmp = A0_A1;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0ECF;
-Reference = P9;
+Reference = P10;
 ValeurCmp = A2_A3;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F695;
-Reference = P10;
+Reference = P11;
 ValeurCmp = A4_A5;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0FE3;
-Reference = P11;
+Reference = P12;
 ValeurCmp = 3.3V_5V;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DAD0FDF;
-Reference = P12;
+Reference = P13;
 ValeurCmp = GND_RAW;
 IdModule  = TYCO_1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD40D1;
+Reference = P14;
+ValeurCmp = B__A;
+IdModule  = TYCO_1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD3FAF;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD3DC2;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = SparkFun-0603-RES;
 EndCmp
 
 BeginCmp
@@ -232,6 +260,20 @@ IdModule  = TACTILE_SWITCH_SMD;
 EndCmp
 
 BeginCmp
+TimeStamp = /4FDCFE4B;
+Reference = SJ1;
+ValeurCmp = SOLDERJUMPER_2WAYT;
+IdModule  = SparkFun-SJ_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD0326;
+Reference = SJ2;
+ValeurCmp = SOLDERJUMPER_2WAYT;
+IdModule  = SparkFun-SJ_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D65B97E;
 Reference = U1;
 ValeurCmp = ATMEGA168;
@@ -257,6 +299,13 @@ TimeStamp = /4D6D9095;
 Reference = U4;
 ValeurCmp = 5V_Reg;
 IdModule  = SparkFun-SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD0317;
+Reference = U5;
+ValeurCmp = MAX1487;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp

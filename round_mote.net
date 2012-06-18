@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 30 Apr 2011 03:52:27 PM MDT
+# EESchema Netlist Version 1.1 created  6/16/2012 8:36:03 PM
 (
  ( /4D6D9380 SparkFun-EIA3216 C31 10uF
   ( A +3.3V )
@@ -18,11 +18,11 @@
  )
  ( /4D65C0F2 SparkFun-SOD-323 DX1 DIODESOD
   ( 1 DIN )
-  ( 2 N-000028 )
+  ( 2 N-000025 )
  )
- ( /4D65C196 SparkFun-SOD-323 DX2 DIODESOD
+ ( /4D65C196 SOD-323 DX2 DIODESOD
   ( 1 D8 )
-  ( 2 N-000038 )
+  ( 2 N-000026 )
  )
  ( /4D6D6CD0 SparkFun-1X06 JP1 FTDI
   ( 1 DTR )
@@ -37,23 +37,23 @@
   ( C GND )
  )
  ( /4D6D9295 SparkFun-LED-0603 LED51 Red
-  ( A N-000002 )
+  ( A N-000042 )
   ( C GND )
  )
  ( /4D65C47F SparkFun-LED-0603 LEDA13 Green
-  ( A N-000039 )
+  ( A N-000036 )
   ( C GND )
  )
  ( /4DB0F8AE SparkFun-LED-0603 LEDX1 Red
-  ( A N-000054 )
+  ( A N-000006 )
   ( C DOUT )
  )
  ( /4DB0F8C7 SparkFun-LED-0603 LEDX2 Green
-  ( A N-000049 )
+  ( A N-000007 )
   ( C DIN )
  )
  ( /4DB0F8D4 SparkFun-LED-0603 LEDX3 Green
-  ( A N-000050 )
+  ( A N-000051 )
   ( C GND )
  )
  ( /4D6D87FB TYCO_1776275-2 P1 RST-GND
@@ -72,37 +72,53 @@
   ( 1 D4 )
   ( 2 D5 )
  )
- ( /4DAD0BE6 TYCO_1776275-2 P5 D8_D9
+ ( /4FDD4019 TYCO_1776275-2 P5 D7_D6
+  ( 1 DOUT )
+  ( 2 DIN )
+ )
+ ( /4DAD0BE6 TYCO_1776275-2 P6 D8_D9
   ( 1 D8 )
   ( 2 D9 )
  )
- ( /4DAF72E5 TYCO_1776275-2 P6 D10_D11
+ ( /4DAF72E5 TYCO_1776275-2 P7 D10_D11
   ( 1 D10 )
   ( 2 MOSI/D11 )
  )
- ( /4DAD0BF0 TYCO_1776275-2 P7 D12_D13
+ ( /4DAD0BF0 TYCO_1776275-2 P8 D12_D13
   ( 1 MISO/D12 )
   ( 2 SCK/D13 )
  )
- ( /4DAD0BF8 TYCO_1776275-2 P8 A0_A1
+ ( /4DAD0BF8 TYCO_1776275-2 P9 A0_A1
   ( 1 A0 )
   ( 2 A1 )
  )
- ( /4DAD0ECF TYCO_1776275-2 P9 A2_A3
+ ( /4DAD0ECF TYCO_1776275-2 P10 A2_A3
   ( 1 A2 )
   ( 2 A3 )
  )
- ( /4DB0F695 TYCO_1776275-2 P10 A4_A5
+ ( /4DB0F695 TYCO_1776275-2 P11 A4_A5
   ( 1 A4 )
   ( 2 A5 )
  )
- ( /4DAD0FE3 TYCO_1776275-2 P11 3.3V_5V
+ ( /4DAD0FE3 TYCO_1776275-2 P12 3.3V_5V
   ( 1 +5V )
   ( 2 +3.3V )
  )
- ( /4DAD0FDF TYCO_1776275-2 P12 GND_RAW
+ ( /4DAD0FDF TYCO_1776275-2 P13 GND_RAW
   ( 1 RAW )
   ( 2 GND )
+ )
+ ( /4FDD40D1 TYCO_1776275-2 P14 B__A
+  ( 1 A )
+  ( 2 B )
+ )
+ ( /4FDD3FAF SparkFun-0603-RES R1 10k
+  ( 1 +3.3V )
+  ( 2 N-000025 )
+ )
+ ( /4FDD3DC2 SparkFun-0603-RES R2 100
+  ( 1 B )
+  ( 2 A )
  )
  ( /4D6D93B4 0603-RES R31 2.2k
   ( 1 +3.3V )
@@ -110,7 +126,7 @@
  )
  ( /4D6D927E 0603-RES R51 4.7k
   ( 1 +5V )
-  ( 2 N-000002 )
+  ( 2 N-000042 )
  )
  ( /4D6D9C3D 0603-RES RA1 10k
   ( 1 +5V )
@@ -118,25 +134,35 @@
  )
  ( /4D65C35B 0603-RES RA2 4.7k
   ( 1 SCK/D13 )
-  ( 2 N-000039 )
+  ( 2 N-000036 )
  )
  ( /4DB0F8AF 0603-RES RX1 2.2k
   ( 1 +3.3V )
-  ( 2 N-000054 )
+  ( 2 N-000006 )
  )
  ( /4DB0F8C6 0603-RES RX2 2.2k
   ( 1 +3.3V )
-  ( 2 N-000049 )
+  ( 2 N-000007 )
  )
  ( /4DB0F8D5 0603-RES RX3 2.2k
   ( 1 RSSI )
-  ( 2 N-000050 )
+  ( 2 N-000051 )
  )
  ( /4D6D9BCE TACTILE_SWITCH_SMD SA1 TAC
   ( 1 GND )
   ( 2 GND )
   ( 3 RESET )
   ( 4 RESET )
+ )
+ ( /4FDCFE4B SparkFun-SJ_2 SJ1 SOLDERJUMPER_2WAYT
+  ( 1 D4 )
+  ( 2 N-000053 )
+  ( 3 RXD )
+ )
+ ( /4FDD0326 SparkFun-SJ_2 SJ2 SOLDERJUMPER_2WAYT
+  ( 1 A5 )
+  ( 2 N-000054 )
+  ( 3 TXD )
  )
  ( /4D65B97E SparkFun-TQFP32-08 U1 ATMEGA168
   ( 1 D3 )
@@ -145,8 +171,8 @@
   ( 4 +5V )
   ( 5 GND )
   ( 6 +5V )
-  ( 7 N-000041 )
-  ( 8 N-000040 )
+  ( 7 N-000044 )
+  ( 8 N-000043 )
   ( 9 D5 )
   ( 10 DOUT )
   ( 11 DIN )
@@ -175,13 +201,13 @@
  ( /4D65C027 SparkFun-XBEE-SMD U2 XBEE-1B3
   ( 1 +3.3V )
   ( 2 DOUT )
-  ( 3 N-000028 )
+  ( 3 N-000025 )
   ( 4 ? )
   ( 5 ? )
   ( 6 RSSI )
   ( 7 ? )
   ( 8 ? )
-  ( 9 N-000038 )
+  ( 9 N-000026 )
   ( 10 GND )
   ( 11 ? )
   ( 12 ? )
@@ -208,10 +234,20 @@
   ( 4 ? )
   ( 5 +5V )
  )
+ ( /4FDD0317 SO8E U5 MAX1487
+  ( 1 N-000053 )
+  ( 2 D2 )
+  ( 3 D2 )
+  ( 4 N-000054 )
+  ( 5 GND )
+  ( 6 A )
+  ( 7 B )
+  ( 8 +5V )
+ )
  ( /4D65C57F RESONATOR-SMD YA1 16Mhz
-  ( 1 N-000041 )
+  ( 1 N-000044 )
   ( 2 GND )
-  ( 3 N-000040 )
+  ( 3 N-000043 )
  )
 )
 *
