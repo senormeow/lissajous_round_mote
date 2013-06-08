@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/16/2012 8:36:03 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 6/17/2012 10:08:45 PM
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -47,6 +47,20 @@ TimeStamp = /4D6D6CD0;
 Reference = JP1;
 ValeurCmp = FTDI;
 IdModule  = SparkFun-1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDCFE4B;
+Reference = Jumper;
+ValeurCmp = SJ1;
+IdModule  = SolderJumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FDD0326;
+Reference = Jumper;
+ValeurCmp = SJ2;
+IdModule  = SolderJumper;
 EndCmp
 
 BeginCmp
@@ -257,20 +271,6 @@ TimeStamp = /4D6D9BCE;
 Reference = SA1;
 ValeurCmp = TAC;
 IdModule  = TACTILE_SWITCH_SMD;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FDCFE4B;
-Reference = SJ1;
-ValeurCmp = SOLDERJUMPER_2WAYT;
-IdModule  = SparkFun-SJ_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FDD0326;
-Reference = SJ2;
-ValeurCmp = SOLDERJUMPER_2WAYT;
-IdModule  = SparkFun-SJ_2;
 EndCmp
 
 BeginCmp

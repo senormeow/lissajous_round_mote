@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  6/16/2012 8:36:03 PM
+# EESchema Netlist Version 1.1 created  6/17/2012 10:08:45 PM
 (
  ( /4D6D9380 SparkFun-EIA3216 C31 10uF
   ( A +3.3V )
@@ -31,6 +31,16 @@
   ( 4 +5V )
   ( 5 GND )
   ( 6 GND )
+ )
+ ( /4FDCFE4B SolderJumper Jumper SJ1
+  ( 1 D4 )
+  ( 2 N-000053 )
+  ( 3 RXD )
+ )
+ ( /4FDD0326 SolderJumper Jumper SJ2
+  ( 1 A5 )
+  ( 2 N-000054 )
+  ( 3 TXD )
  )
  ( /4D6D93BE SparkFun-LED-0603 LED31 Red
   ( A N-000003 )
@@ -153,16 +163,6 @@
   ( 2 GND )
   ( 3 RESET )
   ( 4 RESET )
- )
- ( /4FDCFE4B SparkFun-SJ_2 SJ1 SOLDERJUMPER_2WAYT
-  ( 1 D4 )
-  ( 2 N-000053 )
-  ( 3 RXD )
- )
- ( /4FDD0326 SparkFun-SJ_2 SJ2 SOLDERJUMPER_2WAYT
-  ( 1 A5 )
-  ( 2 N-000054 )
-  ( 3 TXD )
  )
  ( /4D65B97E SparkFun-TQFP32-08 U1 ATMEGA168
   ( 1 D3 )
