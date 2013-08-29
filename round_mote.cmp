@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le 4/6/2012 1:20:48 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/28/2013 9:39:35 PM
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -26,20 +26,6 @@ TimeStamp = /4D6D9CA1;
 Reference = CA1;
 ValeurCmp = 0.1uF;
 IdModule  = SparkFun-0603-CAP;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D65C0F2;
-Reference = DX1;
-ValeurCmp = DIODESOD;
-IdModule  = SparkFun-SOD-323;
-EndCmp
-
-BeginCmp
-TimeStamp = /4D65C196;
-Reference = DX2;
-ValeurCmp = DIODESOD;
-IdModule  = SOD-323;
 EndCmp
 
 BeginCmp
@@ -176,6 +162,69 @@ IdModule  = TYCO_1776275-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /521EC4C1;
+Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /521EC4DC;
+Reference = Q2;
+ValeurCmp = MOS_N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /521EC4E2;
+Reference = Q3;
+ValeurCmp = MOS_N;
+IdModule  = SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /521EC20E;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /521EC21E;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /521EC797;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /521ECADC;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /521ECCE5;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
+TimeStamp = /521ECEEB;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SparkFun-0603-RES;
+EndCmp
+
+BeginCmp
 TimeStamp = /4D6D93B4;
 Reference = R31;
 ValeurCmp = 2.2k;
@@ -206,21 +255,21 @@ EndCmp
 BeginCmp
 TimeStamp = /4DB0F8AF;
 Reference = RX1;
-ValeurCmp = 2.2k;
+ValeurCmp = 1k;
 IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F8C6;
 Reference = RX2;
-ValeurCmp = 2.2k;
+ValeurCmp = 1k;
 IdModule  = 0603-RES;
 EndCmp
 
 BeginCmp
 TimeStamp = /4DB0F8D5;
 Reference = RX3;
-ValeurCmp = 2.2k;
+ValeurCmp = 1k;
 IdModule  = 0603-RES;
 EndCmp
 
