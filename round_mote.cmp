@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/28/2013 9:39:35 PM
+Cmp-Mod V01 Created by CvPcb (2013-05-18 BZR 4017)-stable date = Wed 25 Sep 2013 08:02:51 PM MDT
 
 BeginCmp
 TimeStamp = /4D6D9380;
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /4D6D9BCE;
 Reference = SA1;
 ValeurCmp = TAC;
-IdModule  = TACTILE_SWITCH_SMD;
+IdModule  = TACTILE_SWITCH_SMD2;
 EndCmp
 
 BeginCmp
