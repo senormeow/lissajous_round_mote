@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date Wed 25 Sep 2013 08:04:46 PM MDT
+PCBNEW-BOARD Version 2 date 9/25/2013 8:20:09 PM
 
-# Created by Pcbnew(2013-05-18 BZR 4017)-stable
+# Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
 $GENERAL
 encoding utf-8
@@ -2871,7 +2871,7 @@ $EndMODULE TACTILE_SWITCH_SMD2
 $TEXTPCB
 Te "2013"
 nl "Visgence Inc. Lissajous"
-nl "Rev4"
+nl "Rev3"
 Po 71.755 77.47 0.762 0.762 0.1905 0
 De 21 1 0 Normal
 $EndTEXTPCB
